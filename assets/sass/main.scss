@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+#new--product{
+    width: 100%;
+    height: auto;
+
+    .container{
+        padding: 34px 63px;
+        
+        .all{
+            display: flex;
+            justify-content: space-between;
+            .tex-head{
+                position: relative;
+                top: -8px;
+                
+                h1{
+                    font-size: 26px;
+                    font-weight: 400;
+                 }
+                 .line{
+                    width: 44%;
+                    border: 1px solid red;
+                    margin-bottom: 1px;
+                 }
+            }
+
+            .products-head{
+                width: 50% ;
+                position: relative;
+                
+
+                    .line_1{
+                        position: absolute;
+                        top: 20px;
+                        left: 0px;
+                        border: 1px solid red;
+                        width: 3%;
+
+                    }
+                    ul{
+                        gap:50px;
+                        display: flex;
+                        list-style: none;
+                
+                    }
+                      
+                    
+
+                
+
+            }
+
+        }
+      
+    
+
+         }
+}
+
+#product--card{
+   .container{
+    padding: 34px 63px;
+    display: flex;
+    justify-content: space-evenly;
+    .card{
+        width: 271px;
+        height: auto;
+        img{
+            border-radius: 4px;
+            object-fit: cover;
+        }
+        .new{
+            position: relative;
+            .border-new{
+                position: absolute;
+                top: -357px;
+                left: 6px;
+                width: 53px;
+                height: 23px;
+                border: 1px solid green;
+                background-color: green;
+                border-radius: 4px;
+                color: #fff;
+                text-align: center;
+            }
+       
+            a{
+                font-weight: 200;
+                opacity: 1;
+                text-decoration: none;
+                color:#fff
+            }
+        }
+
+      
+            .icons_all{
+                position: absolute;
+                bottom: 91px;
+                left: 61px;
+               
+
+                .iconss{
+                    width: 35px;
+                    height: 35px;
+                    border: 1px solid #fff;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    text-align: center;
+                    padding: 2px;
+                    margin-right: 15px;
+                    -o-object-fit: scale-down;
+                    object-fit: scale-down;
+                }
+            }
+
+            .card--text{
+                text-align: center;
+                p{
+                    opacity: 0.7    ;
+                }
+                i{
+                    color: gold;
+                    font-size: 10px;
+                    width: 5px;
+                    margin-bottom: 5px;
+
+                }
+               .money{
+                font-size: 20px;
+                font-weight: 900;
+               }
+            }
+        
+    }
+   } 
+}
